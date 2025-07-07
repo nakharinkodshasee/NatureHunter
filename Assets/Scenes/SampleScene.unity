@@ -2561,7 +2561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 443451d1bedd73e4885b26bb5080d259, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.57
+      value: 4.39
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 443451d1bedd73e4885b26bb5080d259, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4034,7 +4034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 513063306}
   m_Layer: 0
-  m_Name: MFA
+  m_Name: MFA(MontaneForestAnimal)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6732,7 +6732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cb1701154c936647877cd245d741834, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.72
+      value: 1.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cb1701154c936647877cd245d741834, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8759,7 +8759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd3029fe6a6b5a438d2fd368655d325, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.11
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd3029fe6a6b5a438d2fd368655d325, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10809,7 +10809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1095627469}
   m_Layer: 0
-  m_Name: MFP
+  m_Name: MFP(MontaneForestPlant)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10853,7 +10853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 443451d1bedd73e4885b26bb5080d259, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.57
+      value: 4.39
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 443451d1bedd73e4885b26bb5080d259, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13537,7 +13537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280129685}
   m_Layer: 0
-  m_Name: RFA
+  m_Name: RFA(RainForestAnimal)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13582,7 +13582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1294626654
 Transform:
   m_ObjectHideFlags: 0
@@ -16336,7 +16336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cb1701154c936647877cd245d741834, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.72
+      value: 1.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cb1701154c936647877cd245d741834, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16942,7 +16942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd3029fe6a6b5a438d2fd368655d325, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.11
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd3029fe6a6b5a438d2fd368655d325, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18488,7 +18488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1804210984}
   m_Layer: 0
-  m_Name: RFP
+  m_Name: RFP(RainForestPlant)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19101,6 +19101,10 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

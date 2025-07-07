@@ -370,8 +370,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\u0E0A\u0E37\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C\n\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E17\u0E22
-    \u0E01\u0E48\u0E2D\u0E40\u0E14\u0E37\u0E2D\u0E22\n\u0E27\u0E07\u0E28\u0E4C\n\u0E2A\u0E16\u0E32\u0E19\u0E20\u0E32\u0E1E"
+  m_text: "\n\u0E0A\u0E37\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C
+    Castanopsis acuminatissima (Blume) A.DC.\n\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E17\u0E22
+    \u0E01\u0E48\u0E2D\u0E40\u0E14\u0E37\u0E2D\u0E22\n\u0E27\u0E07\u0E28\u0E4C Fagaceae\n\u0E2A\u0E16\u0E32\u0E19\u0E20\u0E32\u0E1E
+    \u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E04\u0E38\u0E01\u0E04\u0E32\u0E21"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a19d28175ca86743a556311fd88ccbb, type: 2}
   m_sharedMaterial: {fileID: 6183125494339379717, guid: 6a19d28175ca86743a556311fd88ccbb, type: 2}

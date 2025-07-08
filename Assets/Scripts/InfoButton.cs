@@ -9,7 +9,7 @@ public class InfoButton : MonoBehaviour
         boxName = gameObject.name;
     }
 
-    public void HideResultPanel()
+    public void HideAndShowResultPanel()
     {
         ReferenceManager.Instance.infoPanelManager.ShowInfoPanel(boxName);
         ReferenceManager.Instance.resultPanel.SetActive(false);

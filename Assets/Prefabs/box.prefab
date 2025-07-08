@@ -94,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   creatureName: 
   creatureAndForestType: 
+  sameCreature: []
 --- !u!114 &9161178227081834525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +141,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 370581404746147726}
         m_TargetAssemblyTypeName: InfoButton, Assembly-CSharp
-        m_MethodName: HideResultPanel
+        m_MethodName: HideAndShowResultPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -162,8 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb934890b1362249bdd2e4ea8b4bb15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resultPanel: {fileID: 0}
-  infoPanelManager: {fileID: 0}
 --- !u!1 &5658807527406940402
 GameObject:
   m_ObjectHideFlags: 0

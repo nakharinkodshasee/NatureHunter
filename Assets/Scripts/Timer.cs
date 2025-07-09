@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     [SerializeField] private GameObject handCamera;
 
     
-    private static readonly Vector2 RESULT_POSITION = new Vector2(0f, 200f);
+    private static readonly Vector2 RESULT_POSITION = new Vector2(0f, 125f);
     private static readonly Vector3 ORIGIN_POSITION = new Vector3(0f, 0f,0f);
     void Update()
     {

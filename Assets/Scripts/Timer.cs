@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    private float currentTime = 30f;
+    private float startTime = 30f;
     private int lastDisplayedSecond = -1;
 
     [SerializeField] private TextMeshProUGUI textMeshProUGUI;
@@ -17,16 +17,17 @@ public class Timer : MonoBehaviour
 
     
     private static readonly Vector2 RESULT_POSITION = new Vector2(0f, 125f);
-    private static readonly Vector3 ORIGIN_POSITION = new Vector3(0f, 0f,0f);
+    private static readonly Vector3 ORIGIN_POSITION = Vector3.zero;
+    private const float WarningThreshold = 7f;
     void Update()
     {
-        if (currentTime > 0f)
+        if (startTime > 0f)
         {
-            currentTime -= Time.deltaTime;
+            startTime -= Time.deltaTime;
 
-            int currentSecond = Mathf.CeilToInt(currentTime);
+            int currentSecond = Mathf.CeilToInt(startTime);
 
-            if (currentTime < 7f && currentTime > 0f && redScreen.activeInHierarchy == false)
+            if (startTime < WarningThreshold && startTime > 0f && redScreen.activeInHierarchy == false)
             {
                 redScreen.SetActive(true);
             }

@@ -7,6 +7,7 @@ public class InfoPanelManager : MonoBehaviour
     [SerializeField] private GameObject infoPanel;
     private GameObject currentInfoBox;
     private Dictionary<string, GameObject> infoBoxDict;
+    private const int SuffixLength = 5;
 
     void Awake()
     {
@@ -20,7 +21,7 @@ public class InfoPanelManager : MonoBehaviour
         for (int i = 0; i < infoBoxes.Length; i = i + 1)
         {
             string key = infoBoxes[i].name;
-            key = key.Substring(0, key.Length - 5);
+            key = key.Substring(0, key.Length - SuffixLength);
 
             infoBoxDict[key] = infoBoxes[i];
         }

@@ -23,8 +23,11 @@ public class HandCamera : MonoBehaviour
     private const string PICTURED_TAG = "Pictured";
     private const float RAYCAST_DISTANCE = 15f;
 
+    [SerializeField] private AudioSource audioSource;
+
     public void ScreenShotting()
     {
+        audioSource.Play();
         Ray ray = new Ray(cam.transform.position, cam.transform.forward);
         RaycastHit hit;
 

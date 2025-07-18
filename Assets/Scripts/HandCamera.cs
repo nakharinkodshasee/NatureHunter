@@ -21,7 +21,7 @@ public class HandCamera : MonoBehaviour
 
     private const string CREATURE_TAG = "Creature";
     private const string PICTURED_TAG = "Pictured";
-    private const float RAYCAST_DISTANCE = 15f;
+    private const float RAYCAST_DISTANCE = 25f;
     [Header("Audio")]
     [SerializeField] private AudioSource audioSource;
 

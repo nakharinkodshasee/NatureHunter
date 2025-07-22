@@ -17372,7 +17372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b0785ed2c038f9f448a04f0ba0558fa6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18414,6 +18414,10 @@ PrefabInstance:
     - target: {fileID: 8705707764046103277, guid: 0f033b57949e6b54d8850eaff0ba5450, type: 3}
       propertyPath: m_Name
       value: sketchfabGrass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8705707764046103277, guid: 0f033b57949e6b54d8850eaff0ba5450, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

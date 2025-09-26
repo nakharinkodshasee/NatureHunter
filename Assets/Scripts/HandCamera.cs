@@ -27,12 +27,14 @@ public class HandCamera : MonoBehaviour
 
     public void ScreenShotting()
     {
-        audioSource.Play();
+        //Debug.Log("Screenshotted");
+        
         Ray ray = new Ray(cam.transform.position, cam.transform.forward);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, RAYCAST_DISTANCE) && hit.collider.gameObject.CompareTag(CREATURE_TAG))
         {
+            audioSource.Play();
             // Store original camera settings
             RenderTexture originalRT = cam.targetTexture;
             float originalFOV = cam.fieldOfView;

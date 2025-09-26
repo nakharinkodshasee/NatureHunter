@@ -8,8 +8,14 @@ public class RedFadeEffect : MonoBehaviour
     [SerializeField] private float maxAlpha = 0.7f; // The maximum alpha value (transparency)
     private const float SinOffset = 1f;
     private const float SinDivisor = 2f;
-    
-    
+
+    [SerializeField] private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource.Play();
+    }
+
     private void Update()
     {
         // Calculate the alpha (transparency) value using a sine wave

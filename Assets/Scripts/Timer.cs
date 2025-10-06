@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Timer : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class Timer : MonoBehaviour
     [SerializeField] private GameObject locomotionSystem;
     [SerializeField] private GameObject redScreen;
     [SerializeField] private GameObject handCamera;
+
+    [SerializeField] private GameObject rightController;
+    [SerializeField] private GameObject leftController;
 
     
     private static readonly Vector2 RESULT_POSITION = new Vector2(0f, 125f);
@@ -49,6 +53,8 @@ public class Timer : MonoBehaviour
 
     private void ShowResult()
     {
+        rightController.GetComponent<XRInteractorLineVisual>().enabled = true;
+        leftController.GetComponent<XRInteractorLineVisual>().enabled = true;
         var charController = XR_OriginTransform.GetComponent<CharacterController>();
         if (charController != null)
         {

@@ -8,6 +8,9 @@ public class PlayInstructionVoices : MonoBehaviour
     [SerializeField] private AudioClip[] audioClips;
     void Start()
     {
+        foreach (AudioClip audioClip in audioClips) {
+            AudioClipNullCheck(audioClip);
+        }
         StartCoroutine(PlayAllClipsWithDelay());
     }
 
@@ -17,9 +20,19 @@ public class PlayInstructionVoices : MonoBehaviour
         {
             audioSource.clip = clip;
             audioSource.Play();
-            
+
             // Wait for clip length + 1 second before next one
             yield return new WaitForSeconds(clip.length + 1f);
+        }
+    }
+
+    private void AudioClipNullCheck(AudioClip audioClip)
+    {
+        if (audioClip == null)
+        {
+            Debug.LogWarning("AudioClip reference is missing!", this);
+
+            return;
         }
     }
 }

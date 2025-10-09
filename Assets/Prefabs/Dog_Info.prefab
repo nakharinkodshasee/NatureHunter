@@ -208,7 +208,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.013549, y: 0, z: 0}
-  m_LocalScale: {x: 1.0516274, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3597069832435627364}
@@ -254,7 +254,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: 1ea7b999825aa34429245af2156082c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2512febd9700fb249a4acc5de078ad99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -299,7 +299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.55, y: 0.25}
+  m_AnchoredPosition: {x: 1.55, y: 0.97}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8246550891120035404
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\u0E0A\u0E37\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C
+  m_text: "\u0E0A\u0E37\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C
     Martes flavigula\n\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E17\u0E22 \u0E2B\u0E21\u0E32\u0E44\u0E21\u0E49\n\u0E27\u0E07\u0E28\u0E4C
     Mustelidae\n\u0E2A\u0E16\u0E32\u0E19\u0E20\u0E32\u0E1E \u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E04\u0E38\u0E01\u0E04\u0E32\u0E21"
   m_isRightToLeft: 0

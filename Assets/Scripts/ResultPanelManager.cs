@@ -29,7 +29,7 @@ public class ResultPanelManager : MonoBehaviour
     {
         Creature creatureComponent = creature.GetComponent<Creature>();
         AddScore(creatureComponent.CreatureAndForestType);
-        AddBoxToLayout(creatureComponent.CreatureName,screenshot);
+        AddBoxToLayout(creatureComponent.CreatureName,screenshot,creatureComponent.DisplayName);
     }
 
     private void AddScore(string creatureAndForestType)
@@ -38,11 +38,11 @@ public class ResultPanelManager : MonoBehaviour
             action();
     }
 
-    private void AddBoxToLayout(string creatureName, Texture2D screenshot)
+    private void AddBoxToLayout(string creatureName, Texture2D screenshot,string displayName)
     {
         GameObject newBox = Instantiate(box, layout, false);
         newBox.name = creatureName;
-        newBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = creatureName;
+        newBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = displayName;
         newBox.transform.GetChild(1).GetComponent<RawImage>().texture = screenshot;
     }
 }

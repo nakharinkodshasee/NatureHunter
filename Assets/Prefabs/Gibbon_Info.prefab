@@ -30,8 +30,8 @@ Transform:
   m_LocalScale: {x: 51, y: 57, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6427380820343843893}
   - {fileID: 875482203811386045}
-  - {fileID: 6461527321852558090}
   - {fileID: 7463168731390078356}
   - {fileID: 1156083427036400613}
   m_Father: {fileID: 0}
@@ -206,7 +206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.55, y: 0.25}
+  m_AnchoredPosition: {x: 1.55, y: 0.97}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8246550891120035404
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &6647808683962288466
+--- !u!1 &4373812008729915310
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -314,8 +314,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6461527321852558090}
-  - component: {fileID: 541861931963634677}
+  - component: {fileID: 6427380820343843893}
+  - component: {fileID: 4859185922848247366}
   m_Layer: 2
   m_Name: BG_Image
   m_TagString: Untagged
@@ -323,28 +323,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6461527321852558090
+--- !u!4 &6427380820343843893
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6647808683962288466}
+  m_GameObject: {fileID: 4373812008729915310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.013549057, y: 0, z: 0}
-  m_LocalScale: {x: 1.0516275, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3597069832435627364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &541861931963634677
+--- !u!212 &4859185922848247366
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6647808683962288466}
+  m_GameObject: {fileID: 4373812008729915310}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -379,7 +379,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: 1ea7b999825aa34429245af2156082c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2512febd9700fb249a4acc5de078ad99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\u0E0A\u0E37\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C
+  m_text: "\u0E0A\u0E37\u0E48\u0E2D\u0E17\u0E32\u0E07\u0E27\u0E34\u0E17\u0E22\u0E32\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C
     Hylobates pileatus\n\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E17\u0E22 \u0E0A\u0E30\u0E19\u0E35\u0E21\u0E07\u0E01\u0E38\u0E0E\n\u0E27\u0E07\u0E28\u0E4C
     Hylobatidae\n\u0E2A\u0E16\u0E32\u0E19\u0E20\u0E32\u0E1E \u0E43\u0E01\u0E25\u0E49\u0E2A\u0E39\u0E0D\u0E1E\u0E31\u0E19\u0E18\u0E38\u0E4C"
   m_isRightToLeft: 0

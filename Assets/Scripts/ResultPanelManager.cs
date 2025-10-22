@@ -8,7 +8,7 @@ public class ResultPanelManager : MonoBehaviour
     [SerializeField] private GameObject resultPanel;
     [SerializeField] private GameObject box;
     [SerializeField] private RectTransform layout;
-    //rf = Rainforest, mf = Montaneforest, a = animal, p = plant
+   
     private int rfaScore = 0, rfpScore = 0, mfaScore = 0, mfpScore = 0;
     [SerializeField] private TextMeshProUGUI rfaText, rfpText, mfaText, mfpText;
 

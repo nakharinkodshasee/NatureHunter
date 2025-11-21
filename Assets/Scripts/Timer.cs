@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Timer : MonoBehaviour
 {
-    private float startTime = 30f;
+    private float startTime = 120f;
     private int lastDisplayedSecond = -1;
 
     [SerializeField] private TextMeshProUGUI textMeshProUGUI;

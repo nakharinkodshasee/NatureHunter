@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
     [SerializeField] private GameObject leftController;
 
     
-    private static readonly Vector2 RESULT_POSITION = new Vector2(0f, 125f);
+    private static readonly Vector2 RESULT_POSITION = new Vector2(0f, -65f);
     private static readonly Vector3 ORIGIN_POSITION = Vector3.zero;
     private const float WarningThreshold = 7f;
     void Update()
